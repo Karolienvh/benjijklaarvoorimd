@@ -1,0 +1,1043 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+
+	margin:0;
+
+	padding:0;
+
+	font-family: 'Oxygen', sans-serif;
+
+}
+
+
+
+#container{
+
+	width:100%;
+
+	height:auto;
+
+}
+
+h1 {
+
+	font-size: 3.4rem;
+
+	margin: 0rem 0rem 3.4rem 0rem;
+
+	font-weight: 300;
+
+	text-align: center;
+
+	color:#fff;
+
+	margin-top: 20px;
+
+}
+
+h1.red {
+
+	font-size: 3.4rem;
+
+	margin: 0rem 0rem 3.4rem 0rem;
+
+	font-weight: 300;
+
+	text-align: center;
+
+	color:#F30;
+
+	margin-top:20px;
+
+}
+
+a {
+
+	text-decoration: none;
+
+}
+
+#logo {
+
+	position: fixed;
+
+	top: 20px;
+
+	left: 20px;
+
+	width: 300px;
+
+}
+
+div#page1 {
+
+	width:100%;
+
+	float:left;
+
+	position:relative;
+
+	background-color:#19acce;
+
+}
+
+#pixelman {
+
+	display: block;
+
+	position:absolute;
+
+	bottom:0;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	left: 0;
+
+	right: 0;
+
+}
+
+div#page2 {
+
+	width:100%;
+
+	float:left;
+
+	background-color:#F30;
+
+}
+
+div#page3 {
+
+	width:100%;
+
+	float:left;
+
+	background-color:#0C6;
+
+}
+
+div#page4 {
+
+	width:100%;
+
+	float:left;
+
+	background-color:#FC3;
+
+}
+
+div#page5 {
+
+	width:100%;
+
+	float:left;
+
+	background-color:#19acce;
+
+}
+
+div#page6 {
+
+	width:100%;
+
+	float:left;
+
+	background-color:#F30;
+
+}
+
+div#page7 {
+
+	width:100%;
+
+	float:left;
+
+	background-color:#0C6;
+
+}
+
+div#page8 {
+
+	width:100%;
+
+	float:left;
+
+	background-color:#FC3;
+
+}
+
+div#page9 {
+
+	width:100%;
+
+	float:left;
+
+	background-color:#19acce;
+
+}
+
+div#page10 {
+
+	width:100%;
+
+	float:left;
+
+	background-color: #F9FAFC;
+
+}
+
+div#page11 {
+
+	width:100%;
+
+	float:left;
+
+	background-color: #F30;
+
+}
+
+div#page12 {
+
+	width:100%;
+
+	float:left;
+
+	background-color: #0C6;
+
+}
+
+#title {
+
+	width: 50%;
+
+	margin-left: 25%;
+
+	margin-right: 25%;
+
+	margin-top: 20px;
+
+	border: 3px solid #fff;
+
+	border-radius: 3px;
+
+	height: 5.9rem;
+
+}
+
+.scrolldown_left {
+
+	display: block;
+
+	position:absolute;
+
+	width: 45px;
+
+	bottom:8px;
+
+	left: 4%;
+
+}
+
+.scrolldown_left img, .scrolldown_right img{
+
+	width: 45px;
+
+	margin-top:20px;
+
+}
+
+.scrolldown_right {
+
+	display: block;
+
+	position:absolute;
+
+	width: 45px;
+
+	bottom:8px;
+
+	right: 4%;
+
+	width: 45px;
+
+}
+
+.scrolldown_right span, .scrolldown_left span {
+
+	font-size: 24px;
+
+	margin-bottom:20px;
+
+	color:#fff;
+
+}
+
+span.answer {
+
+	width: 200px;
+
+	border: 2px solid #fff;
+
+	display: inline-block;
+
+	color: #fff;
+
+	margin-left: 20px;
+
+	padding: 25px;
+
+}
+
+span.answer:hover {
+
+	width: 200px;
+
+	border: 2px solid #fff;
+
+	display: inline-block;
+
+	background-color: #fff;
+
+	margin-left: 20px;
+
+	padding: 25px;
+
+}
+
+div.rood span.answer:hover {
+	color: #F30;
+}
+
+div.groen span.answer:hover {
+	color: #0C6;
+}
+
+div.geel span.answer:hover {
+	color: #FC3;
+}
+
+div.blauw span.answer:hover {
+	color: #19acce;
+}
+
+.answer_wrapper {
+
+	width:auto;
+
+	margin:0 auto;
+
+	text-align:center;
+
+	clear: both;
+font-size: 1.8rem;
+
+
+}
+
+.ontdek {
+
+	border: 2px solid #fff;
+
+	width: 500px;
+
+	color: #fff;
+
+	padding:20px 60px 20px 60px;
+
+	font-size: 2.5rem;
+}
+
+span.final_answer {
+
+	width: 400px;
+
+	background-color:#F9FAFC;
+
+	float:left;
+
+	font-size: 1.7rem;
+
+	font-weight: 300;
+
+	text-align: center;
+
+	color:#000;
+
+}
+
+.iconen_wrapper {
+
+	width:1024px;
+
+	margin: 0 auto;
+
+}
+
+div.iconen {
+
+	float:left;
+
+	width:100%;
+
+	margin-top: 30px;
+
+}
+
+.iconen span {
+
+	margin: 38px;
+
+	-webkit-transition: all 0.25s ease-in-out;
+
+	-moz-transition: all 0.25s ease-in-out;
+
+	-ms-transition: all 0.25s ease-in-out;
+
+	-o-transition: all 0.25s ease-in-out;
+
+	transition: all 0.25s ease-in-out;
+
+}
+
+.php {
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/php_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.php:hover {
+
+	background: url('images/php_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.photoshop {
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/photoshop_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.photoshop:hover {
+
+	background: url('images/photoshop_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.tekenen {
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/tekenen_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.tekenen:hover {
+
+	background: url('images/tekenen_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.mysql {
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/mysql_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.mysql:hover {
+
+	background: url('images/mysql_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.jquery {
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/jquery_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.jquery:hover {
+
+	background: url('images/jquery_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.javascript{
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/javascript_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.javascript:hover {
+
+	background: url('images/javascript_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.java{
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/java_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.java:hover {
+
+	background: url('images/java_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.indesign{
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/indesign_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.indesign:hover {
+
+	background: url('images/indesign_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.illustrator{
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/illustrator_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.illustrator:hover {
+
+	background: url('images/illustrator_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.html{
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/html_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.html:hover {
+
+	background: url('images/html_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.flash{
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/flash_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.flash:hover {
+
+	background: url('images/flash_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.drupal{
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/drupal_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.drupal:hover {
+
+	background: url('images/drupal_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.css{
+
+	width:100px;
+
+	height: 98px;
+
+	float:left;
+
+	background: url('images/css_grijs.png');
+
+	background-size:100px 98px;
+
+}
+
+.css:hover {
+
+	background: url('images/css_rood.png');
+
+	background-size:100px 98px;
+
+}
+
+.keuzemodules {
+
+	width: 260px;
+
+	height: 98px;
+
+	float: left;
+
+	background-color: #F30;
+
+	line-height: 94px;
+
+	font-size: 23px;
+
+	color: #fff;
+
+	text-align: center;
+
+	padding-left: 10px;
+
+	padding-right: 10px;
+
+	border-radius: 4px;
+
+}
+
+.keuzemodules_wrapper {
+
+	width:1024px;
+
+	margin: 0 auto;
+
+	margin-top: 40px;
+
+	text-align: center;
+
+}
+
+.design {
+
+	width: 512px;
+
+	float:left;
+
+}
+
+.design p {text-align: justify;}
+
+.development p {text-align: justify;}
+
+.development{
+
+	width:512px;
+
+	float: left;
+
+	padding-bottom: 50px;
+
+}
+
+h2 {
+
+	width: 90%;
+
+	margin-left: 5%;
+
+	margin-right: 5%;
+
+	margin-top: 20px;
+
+	border: 3px solid #FFF;
+
+	color:#FFF;
+
+	border-radius: 3px;
+
+	height: 3.9rem;
+
+	font-size: 34px;
+
+}
+
+.keuzemodules_wrapper p {
+
+	margin: 5%;
+
+	font-size: 1.2rem;
+
+	color: #fff;
+
+	
+
+}
+
+.klaar {
+
+	margin-top:40px;
+
+	width:200px;
+
+	padding:20px 60px 20px 60px;
+
+	background: #0C6;
+
+	border: medium none;
+
+	border-radius: 5px;
+
+	color: #fff;
+
+	cursor: pointer;
+
+	display: inline-block;
+
+	outline: medium none;
+
+	text-transform: uppercase;
+
+	font-size: 24px;
+
+	width: 280px;
+
+}
+
+.inschrijven-wrapper {
+
+	width:1024px;
+
+	margin:0 auto;
+
+	text-align: center;
+
+}
+
+.inschrijven {
+
+	margin-top:130px;
+
+	text-align: center;
+
+	width:200px;
+
+	padding:30px 90px 30px 90px;
+
+	background: #F30;
+
+	border: medium none;
+
+	border-radius: 5px;
+
+	color: #fff;
+
+	cursor: pointer;
+
+	display: inline-block;
+
+	outline: medium none;
+
+	text-transform: uppercase;
+
+	font-size: 38px;
+
+	width: 280px;
+
+}
+
+.inschrijven-wrapper h1 {
+
+	margin-top: 20px;
+
+	font-size: 28px;
+
+}
+
+.meer-info {
+
+	width: 100%;
+
+	float:left;
+
+	margin-top: 40px;
+
+}
+
+.links {
+
+	width:50%;
+
+	float:left;
+
+}
+
+.infodagen {
+
+	width: 50%;
+
+	float:left;
+
+}
+
+.links a {
+
+	color:#fff;
+
+	font-size: 28px;
+
+	width:100%;
+
+	float:left;
+
+	-webkit-transition: all 0.25s ease-in-out;
+
+	-moz-transition: all 0.25s ease-in-out;
+
+	-ms-transition: all 0.25s ease-in-out;
+
+	-o-transition: all 0.25s ease-in-out;
+
+	transition: all 0.25s ease-in-out;
+
+	margin-top:20px;
+
+}
+
+.links a:hover {
+
+	color:#F30;
+
+}
+
+.twitter-icon {
+
+	-webkit-transition: all 0.25s ease-in-out;
+
+	-moz-transition: all 0.25s ease-in-out;
+
+	-ms-transition: all 0.25s ease-in-out;
+
+	-o-transition: all 0.25s ease-in-out;
+
+	transition: all 0.25s ease-in-out;
+
+	background: url('images/twitter.png');
+
+	background-size: 30px 25px;
+
+	width:30px;
+
+	height:25px;
+
+	display: inline-block;
+
+	margin-right: 30px;
+
+}
+
+.twitter-icon:hover {
+
+	background: url('images/twitter_rood.png');
+
+	background-size: 30px 25px;
+
+}
+
+.facebook-icon {
+
+	-webkit-transition: all 0.25s ease-in-out;
+
+	-moz-transition: all 0.25s ease-in-out;
+
+	-ms-transition: all 0.25s ease-in-out;
+
+	-o-transition: all 0.25s ease-in-out;
+
+	transition: all 0.25s ease-in-out;
+
+	background: url('images/facebook.png');
+
+	background-size: 30px 25px;
+
+	width:30px;
+
+	height:25px;
+
+	display: inline-block;
+
+}
+
+.facebook-icon:hover {
+
+	background: url('images/facebook-hover.png');
+
+	background-size: 30px 25px;
+
+}
+
+.social-wrapper {
+
+	width:15%;
+
+	margin: 0 auto;
+
+}
+
+.social {
+
+	width:50% !important;
+
+}
+
+.infodagen h3 {
+
+	font-size: 28px;
+
+	color:#fff;
+
+	margin-bottom:20px;
+
+	margin-top: 18px;
+
+}
+
+.infodagen p {
+
+	font-size: 24px;
+
+	color:#fff;
+
+	margin-bottom:10px;
+
+}
+
+.text_wrapper {
+  text-align: center;
+  height: inherit;
+}
+ 
+.text_wrapper:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
